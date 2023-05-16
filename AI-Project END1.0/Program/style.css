@@ -1,0 +1,115 @@
+body{
+    text-align: center;
+    color: black;
+    background-color: #BAD7E9;
+}
+
+.container{
+    max-width:800px;
+    margin: 0 auto;
+}
+
+.heading{
+    margin-top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    right: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.box{
+    position: relative;
+    width: 145px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+    right: 20%;
+    border: 2px solid #FCFFE7;
+    box-sizing: border-box;
+}
+
+.box label{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    transition: 0.5s ease;
+}
+.box input{
+    width: 140px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked ~ label{
+    background-color:#2B3467;
+    color: white;
+}
+
+button{
+    margin: 10px auto;
+    width: 200px;
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #2B3467;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    position: relative;
+    right: 7%;
+    top: 50%;
+    text-decoration: none;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+button:hover{
+    background-color: #2B3467;
+    color: white;
+}
+button a:hover{
+    background-color: #2B3467;
+    color: white;
+}
+
+/*output.html*/
+.txt{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 5%;
+}
+.card{
+    position: relative;
+    justify-content: center;
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+.btnback{
+    border-radius: 1;
+    border: 0;
+    background-color: #eda77b;
+    min-width: 35%;
+    position: relative;
+    left: 0%;
+    margin-top: 20px;
+}
+.btnback:hover{
+    text-transform: uppercase;
+}
+.btnback a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
